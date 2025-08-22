@@ -1,0 +1,193 @@
+/* General */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #0b0c10;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #1a1a1a;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #66fcf1;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #66fcf1;
+  font-weight: bold;
+}
+.menu-toggle {
+  display: none;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+.hero-card {
+  background: #1a1a1a;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 6px 12px rgba(0, 255, 255, 0.2);
+}
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #66fcf1;
+}
+.hero-card h1 span {
+  color: #66fcf1;
+}
+.role {
+  color: #66fcf1;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.hero-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Buttons */
+.btn {
+  background: #66fcf1;
+  color: #0b0c10;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #45d1c5;
+}
+.btn.secondary {
+  background: transparent;
+  border: 2px solid #66fcf1;
+  color: #66fcf1;
+}
+.btn.secondary:hover {
+  background: #66fcf1;
+  color: #0b0c10;
+}
+
+/* Sections */
+.card-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+.card-section h2 {
+  margin-bottom: 30px;
+  color: #66fcf1;
+}
+.card {
+  background: #1a1a1a;
+  border-radius: 15px;
+  padding: 25px;
+  margin: auto;
+  max-width: 600px;
+  box-shadow: 0 6px 12px rgba(0, 255, 255, 0.2);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+.grid .card {
+  max-width: 100%;
+  padding: 20px;
+}
+
+/* Projects */
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.project-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Contact */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+textarea {
+  resize: none;
+  height: 100px;
+}
+form button {
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a1a1a;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .menu-toggle {
+    display: block;
+  }
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="images/WhatsApp Image 2025-07-04 at 01.18.10.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <title>Shahana J | Portfolio</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+</head>
+
+<body class="bg-white text-black dark:bg-black dark:text-white font-sans transition-colors duration-500">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-gray-200 dark:bg-[#1a1a1a] shadow-md z-50 transition-colors duration-500">
+    <nav class="container mx-auto flex justify-between items-center px-6 py-4">
+      <!-- Logo -->
+      <div class="text-2xl font-bold text-cyan-600 dark:text-cyan-400">Shahana J</div>
+
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex space-x-8 font-semibold">
+        <li><a href="#home" class="hover:text-cyan-400">Home</a></li>
+        <li><a href="#about" class="hover:text-cyan-400">About</a></li>
+        <li><a href="#services" class="hover:text-cyan-400">Services</a></li>
+        <li><a href="#skills" class="hover:text-cyan-400">Skills</a></li>
+        <li><a href="#projects" class="hover:text-cyan-400">Projects</a></li>
+        <li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
+      </ul>
+
+      <div class="flex items-center gap-4">
+        <!-- Theme Toggle Button -->
+        <!-- <button id="theme-toggle" class="text-xl">🌙</button> -->
+        <!-- Hamburger (Mobile) -->
+        <div class="md:hidden text-3xl cursor-pointer" id="menu-toggle">☰</div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <ul id="mobile-menu"
+      class="hidden flex-col bg-gray-200 dark:bg-[#1a1a1a] text-center py-6 space-y-4 font-semibold md:hidden transition-colors duration-500">
+      <li><a href="#home" class="hover:text-cyan-400 block">Home</a></li>
+      <li><a href="#about" class="hover:text-cyan-400 block">About</a></li>
+      <li><a href="#services" class="hover:text-cyan-400">Services</a></li>
+      <li><a href="#skills" class="hover:text-cyan-400 block">Skills</a></li>
+      <li><a href="#projects" class="hover:text-cyan-400 block">Projects</a></li>
+      <li><a href="#contact" class="hover:text-cyan-400 block">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home"
+    class="min-h-screen flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-10 px-6 pt-28 md:pt-0 transition-colors duration-500">
+    <!-- Image -->
+    <div class="flex justify-center md:w-1/2">
+      <img src="images/WhatsApp Image 2025-07-04 at 01.18.10.jpeg" alt="Shahana J"
+        class="rounded-full border-4 border-cyan-400 w-64 h-64 object-cover shadow-lg">
+    </div>
+    <!-- Text -->
+    <div class="md:w-1/2 space-y-6">
+      <h3 class="text-gray-600 dark:text-gray-400 text-lg">Hey There,</h3>
+      <h1 class="text-4xl md:text-5xl font-bold">I'm <span class="text-cyan-600 dark:text-cyan-400">Shahana J.</span>
+      </h1>
+      <h2 class="text-xl md:text-2xl font-semibold text-cyan-600 dark:text-cyan-300">MERN Stack Developer</h2>
+      <p class="text-gray-700 dark:text-gray-300 max-w-lg">
+        I blend creativity and logic to build clean, responsive and functional web applications.
+      </p><br><br>
+      <a href="Shahana-j .pdf" target="_blank">
+        <button
+          class="px-6 py-2 bg-cyan-600 text-white rounded-full hover:bg-cyan-400 hover:text-black transition">Resume</button>
+      </a>
+
+      <div class="flex space-x-6 mt-6 justify-center md:justify-start text-3xl text-cyan-600 dark:text-cyan-400">
+        <a href="https://www.instagram.com/_shanusss_?igsh=OGtnMzR0OGJwc3N0" target="_blank" rel="noopener noreferrer"
+          class="hover:text-pink-500 transition-colors duration-300">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        <a href="https://github.com/shahana203" target="_blank" rel="noopener noreferrer"
+          class="hover:text-gray-400 transition-colors duration-300">
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/shahana-j" target="_blank" rel="noopener noreferrer"
+          class="hover:text-blue-600 transition-colors duration-300">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6 text-cyan-600 dark:text-cyan-400">About Me</h2>
+    <p class="max-w-3xl mx-auto text-gray-700 dark:text-gray-300">
+      I am a passionate MERN Stack Developer skilled in creating modern, responsive, and scalable web applications.
+      I enjoy solving real-world problems through coding and continuously learning new technologies.
+    </p>
+  </section>
+
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 px-6 ">
+    <h2 class="text-3xl font-bold mb-10 text-cyan-400 text-center">Services</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <!-- Web Design -->
+      <div class="p-8 bg-gray-100 dark:bg-[#1a1a1a] rounded-lg border-2 border-cyan-400 flex flex-col items-center">
+        <i class="fas fa-globe text-5xl text-cyan-400 mb-4"></i>
+        <h3 class="text-xl font-bold mb-2 text-cyan-400">Web Design</h3>
+        <p class="text-gray-300 text-center">
+          Crafting visually appealing and user-centric websites with a focus on modern aesthetics and usability.
+        </p>
+      </div>
+      <!-- Frontend Development -->
+      <div class="p-8 bg-gray-100 dark:bg-[#1a1a1a] rounded-lg border-2 border-cyan-400 flex flex-col items-center">
+        <i class="fas fa-code text-5xl text-cyan-400 mb-4"></i>
+        <h3 class="text-xl font-bold mb-2 text-cyan-400">Frontend Development</h3>
+        <p class="text-gray-300 text-center">
+          Building responsive, interactive user interfaces with the latest JavaScript frameworks and best practices.
+        </p>
+      </div>
+      <!-- Backend Development -->
+      <div class="p-8 bg-gray-100 dark:bg-[#1a1a1a] rounded-lg border-2 border-cyan-400 flex flex-col items-center">
+        <i class="fas fa-database text-5xl text-cyan-400 mb-4"></i>
+        <h3 class="text-xl font-bold mb-2 text-cyan-400">Backend Development</h3>
+        <p class="text-gray-300 text-center">
+          Developing secure, scalable server-side applications with efficient API and database integrations.
+        </p>
+      </div>
+      <!-- Full Stack Development -->
+      <div class="p-8 bg-gray-100 dark:bg-[#1a1a1a] rounded-lg border-2 border-cyan-400 flex flex-col items-center">
+        <i class="fas fa-layer-group text-5xl text-cyan-400 mb-4"></i>
+        <h3 class="text-xl font-bold mb-2 text-cyan-400">Full Stack Development</h3>
+        <p class="text-gray-300 text-center">
+          Delivering seamless end-to-end solutions by connecting frontend and backend technologies.
+        </p>
+      </div>
+      <!-- Hosting -->
+      <div class="p-8 bg-gray-100 dark:bg-[#1a1a1a] rounded-lg border-2 border-cyan-400 flex flex-col items-center">
+        <i class="fas fa-cloud-upload-alt text-5xl text-cyan-400 mb-4"></i>
+        <h3 class="text-xl font-bold mb-2 text-cyan-400">Hosting</h3>
+        <p class="text-gray-300 text-center">
+          Providing reliable deployment and hosting services on trusted cloud platforms for maximum uptime.
+        </p>
+      </div>
+      <!-- API Integration -->
+      <div class="p-8 bg-[#1a1a1a] rounded-lg border-2 border-cyan-400 flex flex-col items-center">
+        <i class="fas fa-plug text-5xl text-cyan-400 mb-4"></i>
+        <h3 class="text-xl font-bold mb-2 text-cyan-400">API Integration</h3>
+        <p class="text-gray-300 text-center">
+          Connecting applications with third-party and custom APIs to enable powerful features and data sharing.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 px-6 text-center  transition-colors duration-500">
+    <h2 class="text-3xl font-bold mb-10 text-cyan-600 dark:text-cyan-400">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-12 h-12 mb-2"
+          alt="HTML">
+        <p>HTML</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-12 h-12 mb-2"
+          alt="CSS">
+        <p>CSS</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          class="w-12 h-12 mb-2" alt="JavaScript">
+        <p>JavaScript</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="w-12 h-12 mb-2"
+          alt="React">
+        <p>React</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="w-12 h-12 mb-2"
+          alt="Node.js">
+        <p>Node.js</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+          class="w-12 h-12 mb-2" alt="Express">
+        <p>Express</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+          class="w-12 h-12 mb-2" alt="MongoDB">
+        <p>MongoDB</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-12 h-12 mb-2"
+          alt="Git">
+        <p>Git/GitHub</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+          class="w-12 h-12 mb-2" alt="Postman">
+        <p>Postman</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+          class="w-12 h-12 mb-2" alt="TypeScript">
+        <p>TypeScript</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" class="w-12 h-12 mb-2"
+          alt="Firebase">
+        <p>Firebase</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-[#1a1a1a] rounded-lg shadow flex flex-col items-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" class="w-12 h-12 mb-2"
+          alt="Redux">
+        <p>Redux</p>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-10 text-cyan-600 dark:text-cyan-400">My Works</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div class="p-6 bg-gray-100 dark:bg-[#1a1a1a] rounded-lg shadow">
+        <img src="images/Screenshot 2025-04-24 221646.png" alt="E-commerce App" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Emmilee</h3>
+        <p class="text-gray-700 dark:text-gray-300">Emmilee is a sleek MERN stack e-commerce website .it's offering user
+          login, product
+          browsing, cart management,payment and secure checkout. <br>
+          <a href="https://e-commerce-frontend-nine-ruddy.vercel.app/" target="_blank"
+            class="text-blue-500 hover:underline">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </p>
+      </div>
+
+
+
+      <div class="p-6 bg-gray-100 dark:bg-[#1a1a1a] rounded-lg shadow">
+        <img src="images/Screenshot 2025-07-10 233810.png" alt="Todo App" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Todo App</h3>
+        <p class="text-gray-700 dark:text-gray-300"> Todo App is a user-friendly task manager built with MERN stack,
+          featuring login with authentication and CRUD features.<br>
+          <a href="https://todo-app-tau-cyan.vercel.app/login" target="_blank" class="text-blue-500 hover:underline">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </p>
+      </div>
+
+      <div class="p-6 bg-gray-100 dark:bg-[#1a1a1a] rounded-lg shadow">
+        <img src="images/Screenshot 2025-07-10 233859.png" alt="Portfolio Website" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Weatherly</h3>
+        <p class="text-gray-700 dark:text-gray-300">Weatherly is a clean and responsive weather app that displays
+          real-time weather updates using
+          API integration, with search-by-city and dynamic visuals.<br>
+          <a href="https://shahana203.github.io/Weather-app/" target="_blank" class="text-blue-500 hover:underline">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </p>
+      </div>
+
+
+
+    </div>
+    <div class="text-center mt-10 max-w-5xl mx-auto">
+      <a href="project.html">
+        <button class="px-6 py-2 bg-cyan-600 text-white rounded-full hover:bg-cyan-400 hover:text-black transition">
+          View More
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 text-center  transition-colors duration-500">
+    <h2 class="text-3xl font-bold mb-6 text-cyan-600 dark:text-cyan-400">Contact Me</h2>
+    <form action="https://formspree.io/f/myzpqrev" method="POST" class="max-w-lg mx-auto space-y-4">
+      <input type="text" name="name" placeholder="Your Name" required
+        class="w-full px-4 py-2 rounded-lg border border-gray-400 dark:border-gray-600 bg-white dark:bg-[#1a1a1a]">
+      <input type="email" name="email" placeholder="Your Email" required
+        class="w-full px-4 py-2 rounded-lg border border-gray-400 dark:border-gray-600 bg-white dark:bg-[#1a1a1a]">
+      <textarea name="message" placeholder="Your Message" required
+        class="w-full px-4 py-2 rounded-lg border border-gray-400 dark:border-gray-600 bg-white dark:bg-[#1a1a1a]"></textarea>
+      <button type="submit"
+        class="px-6 py-2 bg-cyan-600 text-white rounded-full hover:bg-cyan-400 hover:text-black transition">Send</button>
+    </form>
+  </section>
+
+
+  <!-- Script for Menu + Theme -->
+  <script>
+    // Mobile menu toggle
+    document.getElementById("menu-toggle").addEventListener("click", () => {
+      document.getElementById("mobile-menu").classList.toggle("hidden");
+    });
+
+    // Theme toggle
+    const themeToggle = document.getElementById("theme-toggle");
+    const htmlElement = document.documentElement;
+
+    if (localStorage.getItem("theme") === "light") {
+      htmlElement.classList.remove("dark");
+      themeToggle.textContent = "🌙";
+    } else {
+      htmlElement.classList.add("dark");
+      themeToggle.textContent = "☀️";
+    }
+
+    themeToggle.addEventListener("click", () => {
+      htmlElement.classList.toggle("dark");
+      if (htmlElement.classList.contains("dark")) {
+        themeToggle.textContent = "☀️";
+        localStorage.setItem("theme", "dark");
+      } else {
+        themeToggle.textContent = "🌙";
+        localStorage.setItem("theme", "light");
+      }
+    });
+  </script>
+</body>
+
+</html>
